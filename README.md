@@ -1,4 +1,7 @@
 Análise Exploratória de Dados — Curso ADA
+
+                                             Aula 1 - Análise exploratória.
+
 Este repositório contém um projeto desenvolvido como parte do curso de Análise Exploratória de Dados (EDA) da plataforma ADA. O objetivo é aplicar os conhecimentos adquiridos em uma análise superficial e introdutória de um conjunto de dados reais, utilizando ferramentas comuns na ciência de dados, como Jupyter Notebook e a linguagem Python.
 
 📊 Dataset Utilizado: Cuisine_rating (Kaggle)
@@ -59,48 +62,19 @@ mean()
 Calcula a média dos valores numéricos em uma coluna. Pode ser usada, por exemplo, para saber a média das notas atribuídas.
 Exemplo: df['Rating'].mean()
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                    ---------------------------------------------------
 
 📈 Insights Gerados na Análise
 A seguir, estão os principais insights obtidos a partir da análise exploratória do conjunto de dados cuisine_rating, utilizando Python e bibliotecas como Pandas e NumPy:
 
 🍽️ 1. Quais cozinhas compõem o dataset?
-A coluna Cuisines foi analisada com a função value_counts() para identificar os tipos de culinária avaliados. O dataset inclui uma variedade de cozinhas de diferentes regiões do mundo, como:
-
-Italian
-
-Japanese
-
-Chinese
-
-Mexican
-
-Indian
-
-American
-
-Thai
-
-French, entre outras.
-
-Essa diversidade mostra que o conjunto de dados pode ser utilizado para comparações culturais e gastronômicas.
-
-🌟 2. Qual a principal cozinha entre todas elas (a preferida)?
-A cozinha com o maior número de avaliações foi identificada com a mesma função value_counts(). A análise revelou que a cozinha italiana foi a mais mencionada, sugerindo uma forte preferência ou popularidade entre os usuários que participaram das avaliações.
 
 🔢 3. Quais os tipos de dados utilizados?
-A função info() foi utilizada para examinar a estrutura do dataset. A análise mostrou que os tipos de dados mais comuns nas colunas são:
-
-object (para textos, como os nomes das cozinhas)
-
-float64 ou int64 (para valores numéricos, como as notas atribuídas)
-
-Esses tipos são ideais para uma análise básica, permitindo a aplicação de funções estatísticas como média, contagem e agrupamento.
 
 🏆 4. Qual a maior classificação dos usuários?
-A função max() ou a inspeção direta da coluna Rating revelou que a maior nota atribuída pelos usuários foi 5.0, indicando que alguns estabelecimentos ou tipos de cozinha receberam a avaliação máxima.
 
 🍣 5. Qual a média de classificação da cozinha japonesa?
-Filtrando os registros onde a coluna Cuisines é igual a "Japanese" e aplicando a função mean() sobre a coluna Rating, foi possível calcular a média das avaliações recebidas pela cozinha japonesa.
 
-O resultado revelou uma média de aproximadamente [inserir valor exato aqui, ex: 4.2], indicando uma avaliação geralmente positiva, mas que pode variar conforme o número de registros e sua distribuição.
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+
